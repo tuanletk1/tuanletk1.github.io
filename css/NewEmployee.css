@@ -218,22 +218,18 @@ button {
 	border-radius: 0;
 }
 
-input,
-button,
-select {
+input, button, select {
 	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
 }
 
-button,
-input {
+button, input {
 	overflow: visible;
 }
 
-button,
-select {
+button, select {
 	text-transform: none;
 }
 
@@ -353,10 +349,11 @@ select {
 	color: #ffffff;
 	background-color: #1b68ff;
 	border-color: #1b68ff;
+    cursor: pointer;
 }
 .btn-primary:hover {
 	color: #ffffff;
-	background-color: #0052f4;
+	background-color: #6495f7;
 	border-color: #004ee7;
 }
 
